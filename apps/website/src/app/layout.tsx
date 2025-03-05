@@ -18,7 +18,7 @@ export const preferredRegion = ["fra1", "sfo1", "iad1"];
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Midday | Run your business smarter",
+    default: "Vestern",
     template: "%s | Midday",
   },
   description:
