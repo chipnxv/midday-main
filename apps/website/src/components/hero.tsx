@@ -29,8 +29,9 @@ export function Hero() {
         </Link>
 
         <h2 className="mt-6 md:mt-10 max-w-[580px] text-[#000000] leading-tight text-[24px] md:text-[36px] font-medium">
-          Invoicing, Time tracking, File reconciliation, Storage, Financial
-          Overview & your own Assistant made for <WordAnimation />
+        VESTERN : The All-In-One Finance App
+Your Future, Engineered with AI and Human Expertise for Smarter Investing.
+Made for  <WordAnimation />
         </h2>
 
         <div className="mt-8 md:mt-10">

@@ -4,12 +4,9 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const words = [
-  "Freelancers",
-  "Agencies",
-  "Consultants",
-  "Startups",
-  "Entrepreneurs",
-  "Founders",
+  "Beginners",
+  "Experts",
+  "& Everyone in between",
 ];
 
 function useWordCycle(words: string[], interval: number) {
