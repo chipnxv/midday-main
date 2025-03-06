@@ -40,15 +40,15 @@ export function Hero() {
         <div className="mt-8 md:mt-10">
           <div className="flex items-center space-x-4">
             <Link
-              href="https://cal.com/pontus-midday/15min"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
             >
               
             </Link>
 
-            <a href="https://app.midday.ai">
-              <Button className="h-11 px-5">SignUp</Button>
+            <a href="#">
+              <Button className="h-11 px-5">Sign Up</Button>
             </a>
           </div>
         </div>
