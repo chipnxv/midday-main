@@ -8,7 +8,7 @@ import SpendingLight from "public/product-spending-light.png";
 import SpendingDark from "public/product-spending.png";
 
 export const metadata: Metadata = {
-  title: "Financial Overview",
+  title: "Dashboard",
   description:
     "Get real-time insight into your business's financial state. Keep track of your spending, income and overall financial health.",
 };
@@ -17,29 +17,19 @@ export default function Page() {
   return (
     <div className="container mb-52">
       <div className="mb-40">
-        <h1 className="mt-24 font-medium text-center text-[75px] md:text-[170px] mb-2 leading-none text-stroke">
-          Financial
+        <h1 className="mt-10 font-medium text-center text-[40px] md:text-[60px] mb-2 leading-none text-stroke">
+          Dashboard
         </h1>
 
-        <h3 className="font-medium text-center text-[75px] md:text-[170px] mb-2 leading-none">
-          Overview
-        </h3>
+        
 
-        <div className="flex items-center flex-col text-center relative">
-          <p className="text-lg mt-4 max-w-[600px]">
-            Track key financial metrics like revenue, profit and loss, burn
-            rate, and expenses. View a consolidated currency overview across all
-            your accounts, and generate shareable reports.
-          </p>
-
-          <CtaButton>Get on top of your finances</CtaButton>
-        </div>
+        
       </div>
 
       <DynamicImage
         darkSrc={OverviewDark}
         lightSrc={OverviewLight}
-        alt="Overview"
+        alt="Dashboard"
         className="mt-28"
       />
 

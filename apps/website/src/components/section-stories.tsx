@@ -22,9 +22,9 @@ const ReactHlsPlayer = dynamic(() => import("react-hls-player"), {
 const stories = [
   {
     id: 1,
-    title: "“We are now saving 1-2 man-days each month.”",
+    title: "“I am now saving so much time”",
     description:
-      "Due to improved invoice reconciliation, we are now saving 1-2 man-days each month, and we have a better understanding of our finances thanks to dashboards.",
+      "now I don't have to go back and forth on different apps to check each of my financial data and investing features, this app provides everything",
     name: "Paweł Michalski ",
     company: "VC leaders",
     country: "Poland",
@@ -70,7 +70,7 @@ const stories = [
   {
     id: 2,
     title:
-      "“Without Midday I would’ve sold my company and lost loads of money”",
+      "“Thanks to Vestern's ai-advisor I have made tons of money”",
     name: "Guy Solan",
     company: "Thetis Medical",
     country: "United Kingdom",
@@ -87,9 +87,9 @@ const stories = [
   },
   {
     id: 3,
-    title: "“It has completely transformed how I manage my day-to-day tasks”",
+    title: "“It has completely transformed how I manage my finances”",
     description:
-      "From generating invoices to tracking projects and having all the information centralized in one place, the change has been remarkable.",
+      "App is just remarkable",
     name: "Facu Montanaro",
     company: "Kundo Studio",
     country: "Argentina",

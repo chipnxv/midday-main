@@ -13,7 +13,7 @@ export function Hero() {
             variant="outline"
             className="rounded-full border-border flex space-x-2 items-center"
           >
-            <span className="font-mono text-xs">January Product Updates</span>
+           
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={12}
@@ -28,11 +28,14 @@ export function Hero() {
           </Button>
         </Link>
 
-        <h2 className="mt-6 md:mt-10 max-w-[580px] text-[#000000] leading-tight text-[24px] md:text-[36px] font-medium">
-        VESTERN : The All-In-One Finance App
-Your Future, Engineered with AI and Human Expertise for Smarter Investing.
-Made for  <WordAnimation />
-        </h2>
+        <h2 className="mt-6 md:mt-10 max-w-[580px] text-[#aaa9a9] leading-tight text-[24px] md:text-[36px] font-medium">
+  <span className="text-[32px] md:text-[48px]">VESTERN</span><br />
+  <span className="text-[28px] md:text-[40px] uppercase">The All-In-One Finance App</span><br />
+  <span className="text-[20px] md:text-[32px]">
+    Your Future, Engineered with AI and Human Expertise for Smarter Investing.<br />
+    Made for <WordAnimation/>.
+  </span>
+</h2>
 
         <div className="mt-8 md:mt-10">
           <div className="flex items-center space-x-4">
@@ -41,22 +44,17 @@ Made for  <WordAnimation />
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button
-                variant="outline"
-                className="border-transparent h-11 px-6 dark:bg-[#1D1D1D] bg-[#F2F1EF]"
-              >
-                Talk to founders
-              </Button>
+              
             </Link>
 
             <a href="https://app.midday.ai">
-              <Button className="h-11 px-5">Start free trial</Button>
+              <Button className="h-11 px-5">SignUp</Button>
             </a>
           </div>
         </div>
 
         <p className="text-xs text-[#707070] mt-4 font-mono">
-          Start free trial, no credit card required.
+          Join our services while it's free
         </p>
       </div>
 

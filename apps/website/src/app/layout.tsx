@@ -24,12 +24,12 @@ export const metadata: Metadata = {
   description:
     "Midday provides you with greater insight into your business and automates the boring tasks, allowing you to focus on what you love to do instead.",
   openGraph: {
-    title: "Midday | Run your business smarter",
+    title: "Vestern | The All in one Finance app",
     description:
-      "Midday provides you with greater insight into your business and automates the boring tasks, allowing you to focus on what you love to do instead.",
+      "AI-driven insights meet human expertise, creating a new era of intelligent investing",
     url: baseUrl,
     siteName:
-      "Midday provides you with greater insight into your business and automates the boring tasks, allowing you to focus on what you love to do instead.",
+      "AI-driven insights meet human expertise, creating a new era of intelligent investing",
     locale: "en_US",
     type: "website",
     images: [
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    title: "Midday | Run your business smarter",
+    title: "Vestern | The All in one Finance app",
     description:
-      "Midday provides you with greater insight into your business and automates the boring tasks, allowing you to focus on what you love to do instead.",
+      "AI-driven insights meet human expertise, creating a new era of intelligent investing",
     images: [
       {
         url: "https://cdn.midday.ai/opengraph-image.jpg",
@@ -88,7 +88,7 @@ export default function Layout({ children }: { children: ReactElement }) {
       <body
         className={cn(
           `${GeistSans.variable} ${GeistMono.variable}`,
-          "bg-[#fbfbfb] dark:bg-[#811ec8] overflow-x-hidden antialiased",
+          "bg-[#fbfbfb] dark:bg-[#000000] overflow-x-hidden antialiased",
         )}
       >
         <ThemeProvider

@@ -102,7 +102,7 @@ export function Header() {
       children: [
         {
           path: "/overview",
-          title: "Overview",
+          title: "Dashboard",
           icon: <Icons.Overview size={20} />,
         },
         {
@@ -132,15 +132,15 @@ export function Header() {
       path: "/pricing",
     },
     {
-      title: "Updates",
+      title: "News",
       path: "/updates",
     },
     {
-      title: "Story",
+      title: "Market Overview",
       path: "/story",
     },
     {
-      title: "Download",
+      title: "Portfolio",
       path: "/download",
     },
     {
@@ -199,7 +199,7 @@ export function Header() {
         <ContextMenu>
           <ContextMenuTrigger>
             <Link href="/">
-              <span className="sr-only">Midday Logo</span>
+              <span className="sr-only">Vestern Logo</span>
               <LogoIcon />
             </Link>
           </ContextMenuTrigger>
@@ -354,7 +354,7 @@ export function Header() {
         >
           <div className="mt-4 flex justify-between p-3 px-4 relative ml-[1px]">
             <button type="button" onClick={handleToggleMenu}>
-              <span className="sr-only">Midday Logo</span>
+              <span className="sr-only">Vestern Logo</span>
               <LogoIcon />
             </button>
 
