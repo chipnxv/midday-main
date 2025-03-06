@@ -89,62 +89,25 @@ export function Header() {
 
   const links = [
     {
-      title: "Features",
-      cover: (
-        <Link href="/#assistant" onClick={handleOnClick}>
-          <DynamicImage
-            alt="Assistant"
-            darkSrc={menuAssistantDark}
-            lightSrc={menuAssistantLight}
-          />
-        </Link>
-      ),
-      children: [
-        {
-          path: "/overview",
-          title: "Dashboard",
-          icon: <Icons.Overview size={20} />,
-        },
-        {
-          path: "/learn",
-          title: "Learn",
-          icon: <Icons.Inbox2 size={20} />,
-        },
-        {
-          path: "/vault",
-          title: "Vault",
-          icon: <Icons.Files size={20} />,
-        },
-        {
-          path: "/tracker",
-          title: "Tracker",
-          icon: <Icons.Tracker size={20} />,
-        },
-        {
-          path: "/invoice",
-          title: "Invoice",
-          icon: <Icons.Invoice size={20} />,
-        },
-      ],
-    },
-    {
-      title: "Pricing",
-      path: "/pricing",
-    },
-    {
       title: "Dashboard",
       path: "/Dashboard",
     },
     {
+      title: "AI-Advisor",
+      path: "/ai-advisor",
+    },
+    
+    {
       title: "Market Overview",
-      path: "/story",
+      path: "/MarketOverview",
     },
     {
       title: "Portfolio",
-      path: "/download",
+      path: "/Portfolio",
     },
     {
       title: "Docs",
+    
       cover: (
         <Link href="/engine" onClick={handleOnClick}>
           
@@ -178,6 +141,11 @@ export function Header() {
         },
       ],
     },
+    {
+      title: "Premium",
+      path: "/Subscribe",
+    },
+  
   ];
 
   if (pathname.includes("pitch")) {
@@ -238,7 +206,7 @@ export function Header() {
               </ContextMenuItem>
               <ContextMenuItem>
                 <a
-                  href="https://ui.midday.ai"
+                  href="https://ui.vestern.app"
                   className="flex items-center space-x-2"
                 >
                   <Icons.Palette />
@@ -331,7 +299,7 @@ export function Header() {
 
         <a
           className="text-sm font-medium pr-2 border-l-[1px] border-border pl-4 hidden md:block"
-          href="https://app.midday.ai"
+          href=""
         >
           Sign in
         </a>
@@ -432,7 +400,7 @@ export function Header() {
               >
                 <Link
                   className="text-xl text-primary"
-                  href="https://app.midday.ai"
+                  href=""
                 >
                   Sign in
                 </Link>

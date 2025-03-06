@@ -23,7 +23,7 @@ export function FooterCTA() {
       <div className="mt-10 md:mb-8">
         <div className="flex items-center space-x-4">
           <Link
-            href="https://cal.com/pontus-midday/15min"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -31,11 +31,11 @@ export function FooterCTA() {
               variant="outline"
               className="border border-primary h-12 px-6 dark:border-white border-black text-primary hidden md:block"
             >
-              Talk to founders
+              Home
             </Button>
           </Link>
 
-          <a href="https://app.midday.ai">
+          <a href="https://app.vestern.com/Subscribe">
             <Button className="h-12 px-5 bg-black text-white dark:bg-white dark:text-black hover:bg-black/80 dark:hover:bg-white/80">
               Start free trial
             </Button>

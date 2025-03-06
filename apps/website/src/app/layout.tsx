@@ -19,10 +19,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
     default: "Vestern",
-    template: "%s | Midday",
+    template: "%s | Vestern",
   },
   description:
-    "Midday provides you with greater insight into your business and automates the boring tasks, allowing you to focus on what you love to do instead.",
+    "Vestern provides you with greater insight into your business and automates the boring tasks, allowing you to focus on what you love to do instead.",
   openGraph: {
     title: "Vestern | The All in one Finance app",
     description:
@@ -34,12 +34,12 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://cdn.midday.ai/opengraph-image.jpg",
+        url: "",
         width: 800,
         height: 600,
       },
       {
-        url: "https://cdn.midday.ai/opengraph-image.jpg",
+        url: "",
         width: 1800,
         height: 1600,
       },
@@ -51,12 +51,12 @@ export const metadata: Metadata = {
       "AI-driven insights meet human expertise, creating a new era of intelligent investing",
     images: [
       {
-        url: "https://cdn.midday.ai/opengraph-image.jpg",
+        url: "",
         width: 800,
         height: 600,
       },
       {
-        url: "https://cdn.midday.ai/opengraph-image.jpg",
+        url: "",
         width: 1800,
         height: 1600,
       },

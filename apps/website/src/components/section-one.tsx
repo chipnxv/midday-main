@@ -1,4 +1,4 @@
-export function SectionOne() {
+{/*export function SectionOne() {
   return (
     <section className="mt-24 md:mt-[200px] mb-12">
       <h3 className="text-4xl md:text-8xl font-medium">Everything you need</h3>
@@ -9,3 +9,4 @@ export function SectionOne() {
     </section>
   );
 }
+*/}

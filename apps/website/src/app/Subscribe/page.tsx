@@ -11,8 +11,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Pricing",
-  description: "Midday's pricing",
+  title: "Pro Version",
+  description: "Vestern's Pro pack",
 };
 
 export default function Page() {
@@ -22,20 +22,20 @@ export default function Page() {
         <div>
           <div className="flex items-center flex-col text-center relative">
             <h1 className="mt-24 font-medium text-center text-5xl mb-4">
-              Simple, transparent pricing
+               Subscribe to unlock ALL Profit-Driven features 
             </h1>
             <p className="text-md text-muted-foreground mb-12 max-w-2xl">
-              Choose the plan that's right for you and start your 14-day trial
-              today.
+              start your 14-day trial
+              today!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-5xl mt-8">
               {/* Starter Plan */}
               <div className="flex flex-col p-8 border bg-background">
-                <h2 className="text-xl mb-2 text-left">Starter</h2>
+                <h2 className="text-xl mb-2 text-left">Current Plan</h2>
                 <div className="mt-4 flex items-baseline">
                   <span className="text-[40px] font-medium tracking-tight">
-                    Rs. 99
+                    Free
                   </span>
                   <span className="ml-1 text-2xl font-medium">/mo</span>
                   <span className="ml-2 text-sm text-muted-foreground">
@@ -43,7 +43,7 @@ export default function Page() {
                   </span>
                 </div>
                 <p className="mt-4 text-[#878787] text-left text-sm">
-                  For Students & initial earners
+                  For everyone
                 </p>
 
                 <div className="mt-8">
@@ -102,7 +102,7 @@ export default function Page() {
                 <div className="absolute top-0 right-0 mr-4 mt-4 rounded-full text-[#878787] text-[9px] font-normal border px-2 py-1 font-mono">
                   Limited offer
                 </div>
-                <h2 className="text-xl text-left mb-2">Pro</h2>
+                <h2 className="text-xl text-left mb-2">Pro Version</h2>
                 <div className="mt-1 flex items-baseline">
                   <span className="text-[40px] font-medium tracking-tight line-through text-[#878787]">
                     Rs.399
@@ -118,7 +118,7 @@ export default function Page() {
                   </span>
                 </div>
                 <p className="mt-4 text-[#878787] text-left text-sm">
-                  For experts and regular investors
+                  
                 </p>
 
                 <div className="mt-8">
@@ -155,7 +155,7 @@ export default function Page() {
                   </ul>
                 </div>
 
-                <div className="mt-8 border-t border-border pt-8">
+                <div className="mt-11 border-t border-border pt-20">
                   <Link href="https://app.midday.ai">
                     <Button className="w-full h-12">Start 14 day trial</Button>
                   </Link>

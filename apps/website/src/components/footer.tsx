@@ -13,7 +13,7 @@ export function Footer() {
           
 
           <span className="font-normal md:text-2xl text-right">
-            Your go-to finance app
+            Vestern | Your go-to finance app
           </span>
         </div>
 

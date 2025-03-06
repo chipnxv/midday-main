@@ -1,4 +1,4 @@
-"use client";
+{/* "use client";
 
 import { motion } from "framer-motion";
 import inboxActionsLight from "public/inbox-actions-light.png";
@@ -295,3 +295,4 @@ export function SectionFour() {
     </section>
   );
 }
+  */}

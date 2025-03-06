@@ -1,5 +1,3 @@
-// Thank you: https://ui.aceternity.com/components/infinite-moving-cards
-
 "use client";
 
 import { cn } from "@midday/ui/cn";

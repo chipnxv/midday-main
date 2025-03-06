@@ -1,4 +1,4 @@
-"use client";
+{/* "use client";
 
 import { CtaLink } from "@/components/cta-link";
 import { motion } from "framer-motion";
@@ -17,11 +17,11 @@ export function SectionThree() {
         <div className="flex flex-col md:space-x-12 md:flex-row">
           <div className="xl:mt-6 md:max-w-[40%] md:mr-8 md:mb-8">
             <h3 className="font-medium text-xl md:text-2xl mb-4">
-              Time track your projects
+              
             </h3>
 
             <p className="text-[#878787] md:mb-4 text-sm">
-              Track your time, monitor project durations, set rates and create{" "}
+              Track your time, monitor project durations, set rates and create{""}
               <br />
               invoices from your recorded hours.
             </p>
@@ -167,3 +167,4 @@ export function SectionThree() {
     </section>
   );
 }
+ */}

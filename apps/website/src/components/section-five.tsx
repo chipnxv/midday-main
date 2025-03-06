@@ -1,4 +1,4 @@
-"use client";
+{/* "use client";
 
 import { motion } from "framer-motion";
 import vaultLight from "public/vault-light.png";
@@ -99,3 +99,4 @@ export function SectionFive() {
     </section>
   );
 }
+  */}

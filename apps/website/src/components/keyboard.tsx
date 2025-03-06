@@ -22,16 +22,7 @@ export function Keyboard() {
 
       <div className="h-full w-[500px] duration-200 ease-out transition-all absolute left-[1px] right-[1px] top-[1px] z-[15] bottom-[1px] bg-background/80" />
 
-      <DynamicImage
-        darkSrc={keyboardDark}
-        lightSrc={keyboardLight}
-        alt="Download Midday"
-        width={1092}
-        height={448}
-        className="z-10 relative"
-        quality={90}
-        priority
-      />
+      
     </div>
   );
 }
