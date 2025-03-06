@@ -35,7 +35,7 @@ export default function Page() {
                 <h2 className="text-xl mb-2 text-left">Starter</h2>
                 <div className="mt-4 flex items-baseline">
                   <span className="text-[40px] font-medium tracking-tight">
-                    $29
+                    Rs. 99
                   </span>
                   <span className="ml-1 text-2xl font-medium">/mo</span>
                   <span className="ml-2 text-sm text-muted-foreground">
@@ -43,7 +43,7 @@ export default function Page() {
                   </span>
                 </div>
                 <p className="mt-4 text-[#878787] text-left text-sm">
-                  For freelancers and solo founders who need the essentials.
+                  For Students & initial earners
                 </p>
 
                 <div className="mt-8">
@@ -54,24 +54,21 @@ export default function Page() {
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
                       <span className="text-sm">
-                        Up to 2 invoices per month
+                        Upto 200 prompts every 2 weeks
                       </span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">1 Connected bank</span>
+                      <span className="text-sm">1 Connected bank acc</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">Financial overview</span>
+                      <span className="text-sm">Market Analysis</span>
                     </li>
+                    
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">Time Tracker</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">10 inbox items per month</span>
+                      <span className="text-sm">Learn (Premium)</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
@@ -79,15 +76,7 @@ export default function Page() {
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">Export CSV & reports</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
                       <span className="text-sm">Assistant</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">5GB Vault Storage</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
@@ -116,11 +105,11 @@ export default function Page() {
                 <h2 className="text-xl text-left mb-2">Pro</h2>
                 <div className="mt-1 flex items-baseline">
                   <span className="text-[40px] font-medium tracking-tight line-through text-[#878787]">
-                    $99
+                    Rs.399
                   </span>
 
                   <span className="ml-1 text-[40px] font-medium tracking-tight">
-                    49
+                    299
                   </span>
 
                   <span className="ml-1 text-xl font-medium">/mo</span>
@@ -129,7 +118,7 @@ export default function Page() {
                   </span>
                 </div>
                 <p className="mt-4 text-[#878787] text-left text-sm">
-                  For growing teams and businesses that need more flexibility.
+                  For experts and regular investors
                 </p>
 
                 <div className="mt-8">
@@ -137,10 +126,14 @@ export default function Page() {
                     INCLUDING
                   </h3>
                   <ul className="mt-4 space-y-2">
+                  <li className="flex items-start">
+                      <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
+                      <span className="text-sm">All Features in Starter</span>
+                    </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
                       <span className="text-sm">
-                        Up to 30 invoices per month
+                        Unlimted prompts
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -149,35 +142,15 @@ export default function Page() {
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">Financial overview</span>
+                      <span className="text-sm">Access to VNews</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">Time Tracker</span>
+                      <span className="text-sm">Premium Assistant</span>
                     </li>
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">500 inbox items per month</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">Customer management</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">Export CSV & reports</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">Assistant</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">50GB Vault Storage</span>
-                    </li>
-                    <li className="flex items-start">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0 mr-2" />
-                      <span className="text-sm">10 users</span>
+                      <span className="text-sm">3 users</span>
                     </li>
                   </ul>
                 </div>
@@ -211,11 +184,10 @@ export default function Page() {
             <Accordion type="single" collapsible className="w-full mt-10 mb-48">
               <AccordionItem value="item-1">
                 <AccordionTrigger>
-                  <span className="truncate">Can I self-host Midday.ai?</span>
+                  <span className="truncate">Can I trust Vestern's AI functionalities?</span>
                 </AccordionTrigger>
                 <AccordionContent>
-                  Absolutely. We are currently writing the documentation for
-                  this. You can find the repository{" "}
+                  Absolutely, we have trained the best LLM to provide you top-notch suggestions preffered for your goals with minimal loss risks. Also our world class Cyber-security system keeps everything encrypted.{" "}
                   <a
                     target="_blank"
                     rel="noreferrer"
@@ -227,39 +199,8 @@ export default function Page() {
                   .
                 </AccordionContent>
               </AccordionItem>
-              <AccordionItem value="item-2">
-                <AccordionTrigger>
-                  Can I run Midday.ai locally?
-                </AccordionTrigger>
-                <AccordionContent>
-                  Yes. We are currently writing documentation for this. You can
-                  find the repository{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://git.new/midday"
-                    className="underline"
-                  >
-                    here
-                  </a>
-                  .
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-3">
-                <AccordionTrigger>Is Midday.ai open source?</AccordionTrigger>
-                <AccordionContent>
-                  Yes. You can find the repository{" "}
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://git.new/midday"
-                    className="underline"
-                  >
-                    here
-                  </a>
-                  .
-                </AccordionContent>
-              </AccordionItem>
+              
+              
               <AccordionItem value="item-4">
                 <AccordionTrigger>
                   <span className="truncate max-w-[300px] md:max-w-full">
@@ -287,7 +228,7 @@ export default function Page() {
                 </AccordionTrigger>
                 <AccordionContent>
                   Yes, you can cancel your subscription at any time. If you
-                  cancel your subscription, you will still be able to use Midday
+                  cancel your subscription, you will still be able to use Vestern
                   until the end of your billing period.
                 </AccordionContent>
               </AccordionItem>
@@ -295,15 +236,15 @@ export default function Page() {
               <AccordionItem value="item-6">
                 <AccordionTrigger>
                   <span className="truncate max-w-[300px] md:max-w-full">
-                    I have more questions about Midday.ai. How can I get in
+                    I have more questions about Vestern. How can I get in
                     touch?
                   </span>
                 </AccordionTrigger>
                 <AccordionContent>
                   Sure, we're happy to answer any questions you might have. Just
                   send us an email at{" "}
-                  <a href="mailto:support@midday.ai" className="underline">
-                    support@midday.ai
+                  <a href="mailto:support@vestern.finance" className="underline">
+                    support@vestern.finance.in
                   </a>{" "}
                   and we'll get back to you as soon as possible.
                 </AccordionContent>

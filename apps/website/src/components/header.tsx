@@ -106,8 +106,8 @@ export function Header() {
           icon: <Icons.Overview size={20} />,
         },
         {
-          path: "/inbox",
-          title: "Inbox",
+          path: "/learn",
+          title: "Learn",
           icon: <Icons.Inbox2 size={20} />,
         },
         {
@@ -132,7 +132,7 @@ export function Header() {
       path: "/pricing",
     },
     {
-      title: "News",
+      title: "updates",
       path: "/updates",
     },
     {
@@ -156,12 +156,12 @@ export function Header() {
       ),
       children: [
         {
-          path: "https://git.new/midday",
+          path: "",
           title: "Open Source",
           icon: <FaGithub size={19} />,
         },
         {
-          path: "https://docs.midday.ai",
+          path: "",
           title: "Documentation",
           icon: <MdOutlineDescription size={20} />,
         },
@@ -172,12 +172,12 @@ export function Header() {
         },
         {
           title: "Join the community",
-          path: "https://go.midday.ai/anPiuRx",
+          path: "",
           icon: <FaDiscord size={19} />,
         },
         {
           title: "Apps & Integrations",
-          path: "https://docs.midday.ai/integrations",
+          path: "",
           icon: <MdOutlineIntegrationInstructions size={20} />,
         },
         {

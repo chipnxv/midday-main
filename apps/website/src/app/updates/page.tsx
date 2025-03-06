@@ -1,6 +1,5 @@
 import { Article } from "@/components/article";
 import { UpdatesToolbar } from "@/components/updates-toolbar";
-import { getBlogPosts } from "@/lib/blog";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -9,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default async function Page() {
-  const data = getBlogPosts();
+  
 
   const posts = data
     .sort((a, b) => {

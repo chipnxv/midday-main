@@ -1,19 +1,11 @@
 import { baseUrl } from "@/app/sitemap";
-import { CustomMDX } from "@/components/mdx";
 import { PostAuthor } from "@/components/post-author";
 import { PostStatus } from "@/components/post-status";
-import { getBlogPosts } from "@/lib/blog";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
-export async function generateStaticParams() {
-  const posts = getBlogPosts();
 
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
-}
 
 export async function generateMetadata(props): Promise<Metadata | undefined> {
   const params = await props.params;
@@ -60,8 +52,7 @@ export default async function Page(props: {
 
   const { slug } = params;
 
-  const post = getBlogPosts().find((post) => post.slug === slug);
-
+  
   if (!post) {
     notFound();
   }
@@ -100,7 +91,7 @@ export default async function Page(props: {
               className="mb-12"
             />
           )}
-          <CustomMDX source={post.content} />
+          
         </div>
 
         <div className="mt-10">

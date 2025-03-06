@@ -12,7 +12,7 @@ import invoice from "./invoice.png";
 import pdf from "./pdf.png";
 
 export const metadata: Metadata = {
-  title: "Components | Midday",
+  title: "Components | Vestern",
   description:
     "A list of open source components that can be used in your project.",
 };
@@ -80,7 +80,7 @@ export default function Page() {
           </p>
         </div>
 
-        <a href="https://git.new/midday" target="_blank" rel="noreferrer">
+        <a href="" target="_blank" rel="noreferrer">
           <Button className="mt-8">View on Github</Button>
         </a>
       </div>

@@ -26,34 +26,17 @@ export default function Page() {
         
       </div>
 
-      <DynamicImage
-        darkSrc={OverviewDark}
-        lightSrc={OverviewLight}
-        alt="Dashboard"
-        className="mt-28"
-      />
+      
 
       <div className="flex items-center flex-col text-center relative mt-28">
         <div className="max-w-[600px]">
-          <h4 className="font-medium text-xl md:text-2xl mb-4">
-            From revenue to spending
-          </h4>
+          
           <p className="text-[#878787] text-sm">
-            Connect your business with over 20,000 banks across 33 countries,
-            including the US, Canada, the UK, and Europe. Gain seamless insights
-            into your income and expenses by integrating your existing bank
-            accounts. With a unified view of all your finances, you’ll have a
-            clearer picture of your financial health and the tools to make
-            informed decisions about your business.
+            
           </p>
         </div>
 
-        <DynamicImage
-          darkSrc={SpendingDark}
-          lightSrc={SpendingLight}
-          alt="Spending"
-          className="mt-10 max-w-[834px] w-full"
-        />
+        
 
         <div className="mt-32 max-w-[550px]">
           <h4 className="font-medium text-xl md:text-2xl mb-4">Dive deeper</h4>
