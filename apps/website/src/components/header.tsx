@@ -132,8 +132,8 @@ export function Header() {
       path: "/pricing",
     },
     {
-      title: "updates",
-      path: "/updates",
+      title: "Dashboard",
+      path: "/Dashboard",
     },
     {
       title: "Market Overview",
@@ -144,14 +144,10 @@ export function Header() {
       path: "/download",
     },
     {
-      title: "Developers",
+      title: "Docs",
       cover: (
         <Link href="/engine" onClick={handleOnClick}>
-          <DynamicImage
-            alt="Engine"
-            darkSrc={menuEngineDark}
-            lightSrc={menuEngineLight}
-          />
+          
         </Link>
       ),
       children: [
@@ -159,11 +155,6 @@ export function Header() {
           path: "",
           title: "Open Source",
           icon: <FaGithub size={19} />,
-        },
-        {
-          path: "",
-          title: "Documentation",
-          icon: <MdOutlineDescription size={20} />,
         },
         {
           path: "/engine",
@@ -384,8 +375,8 @@ export function Header() {
             >
               {links.map(({ path, title, children }, index) => {
                 const isActive =
-                  path === "/updates"
-                    ? pathname.includes("updates")
+                  path === "/Dashboard"
+                    ? pathname.includes("Dashboard")
                     : path === lastPath;
 
                 if (path) {
